@@ -65,7 +65,7 @@ def main():
                     a03=a.selectbox("Please select time that works best for you:",
                                 (display_avail))   
             sleep(3.7)
-            a.markdown('<div style="border-style=solid;"><h4>Please wait confirming your consultation for</h4></div>',unsafe_allow_html=True)
+            a.markdown('<div style="border-style=solid;"><h4>Please wait confirming your booking for</h4></div>',unsafe_allow_html=True)
             a.markdown('<div><h4>'+str(a02) +' at '+a03+'. . .</h4></div>',unsafe_allow_html=True)
             if a03:
                 book00=open('sched.csv', 'a')
