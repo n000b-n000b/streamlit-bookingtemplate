@@ -1,6 +1,6 @@
 # Streamlit-BookingSystem-Template
 
-Here is a Python3.11 template to create a simple, yet efficient booking page using the Streamlit and SMTP module.
+Here is a Python3.11 template to create a simple, yet somewhat efficient booking page using the Streamlit and SMTP module.
 Using less than 150 lines of code or so.
 
 1. Please change the bookingtemplate.py file to match your outlook credentials.
